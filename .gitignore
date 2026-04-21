@@ -1,0 +1,19 @@
+# Ignore vendor directory (Composer dependencies)
+vendor/
+
+# Environment file
+.env
+
+# Logs
+*.log
+php-error.log
+logs/
+
+# SQL dumps
+*.sql
+
+# Composer
+composer.lock
+
+#Sample kasi ampangit ng gumawa nito
+sample/
