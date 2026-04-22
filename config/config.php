@@ -31,6 +31,7 @@ define("META_CONFIG", CONFIG_PATH."meta.php");
 define("CSS_URL",BASE_URL."/public/css/");
 define("STYLES_CSS",CSS_URL."styles.css?v=".VER);
 define("LOGIN_CSS",CSS_URL."login.css?v=".VER);
+define("FORGOT_PASSWORD_CSS",CSS_URL."forgot_password.css?v=".VER);
 define("ACCOUNT_CSS",CSS_URL."account.css?v=".VER);
 define("SETTINGS_CSS",CSS_URL."settings.css?v=".VER);
 define("DATA_TABLE_CSS", CSS_URL."data_table.css?v=".VER);

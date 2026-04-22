@@ -27,8 +27,11 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="<?= DATA_TABLE_CSS . '?v=' . (string)@filemtime(__DIR__ . '/../../../public/css/data_table.css') ?>">
     <?php endif; ?>
-    <?php if($page == "" || $page == "Forgot Password" || $page == "Reset"): ?>
+    <?php if($page == "" || $page == "Reset"): ?>
     <link rel="stylesheet" href="<?= LOGIN_CSS ?>">
+    <?php endif; ?>
+    <?php if($page == "Forgot Password"): ?>
+    <link rel="stylesheet" href="<?= FORGOT_PASSWORD_CSS ?>">
     <?php endif; ?>
   </head>
   <body>
