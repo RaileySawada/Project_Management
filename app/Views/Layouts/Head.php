@@ -22,7 +22,6 @@
     <?php if($page == "Settings" || $page == "Quality Assurance" || $page == "User Management" || $page == "Analytics"): ?>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <?php endif; ?>
-    <link rel="stylesheet" href="<?= STYLES_CSS . '?v=' . (string)@filemtime(__DIR__ . '/../../../public/css/styles.css') ?>">
     <?php if($page == "Settings" || $page == "Quality Assurance" || $page == "User Management" || $page == "Analytics"): ?>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="<?= DATA_TABLE_CSS . '?v=' . (string)@filemtime(__DIR__ . '/../../../public/css/data_table.css') ?>">
